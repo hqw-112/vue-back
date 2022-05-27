@@ -8,7 +8,7 @@ let server = http.createServer(function(req ,res){
 if(req.url==='/api/users'){
   res.end(JSON.stringify(users))
 }else{
-  res.end('Not Found')
+  res.end('Not Found hh')
 }
 })
 server.listen(3000,()=>{
